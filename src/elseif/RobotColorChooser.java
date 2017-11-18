@@ -11,7 +11,7 @@ public class RobotColorChooser {
 	public static void main(String[] args) {
 
 		//3. ask the user what color they would like the robot to draw
-		
+				String color =JOptionPane.show
 		//4. use an if/else statement to set the pen color that the user requested
 
         //5. if the user doesn’t enter anything, choose a random color
@@ -21,7 +21,18 @@ public class RobotColorChooser {
 		//2. set the pen width to 10
 		
 	    //1. make the robot draw a shape (this will take more than one line of code)
+			 Robot r2d2=new Robot();
+		r2d2.move(70);
+			r2d2.move(120);
+			r2d2.move(70);
+			r2d2.move(120);
+			r2d2.move(70);
+			r2d2.move(120);
 
+
+			
+
+			
 
 	}
 }
