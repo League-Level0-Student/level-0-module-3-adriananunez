@@ -26,6 +26,68 @@ package modulo;
 **/
 
 public class FizzBuzz {
+	public class void main(String[])
+	
+	
+	
+	for(int i=1;<21;1++) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		if(1%21==0) Syso("fizz");
+			
+		}
+	else {
+		Syso("buzz");
+		
+	
+		
+	}		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 
 }
 
