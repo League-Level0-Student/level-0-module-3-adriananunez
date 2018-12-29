@@ -23,6 +23,10 @@ public class RobotColorChooser {
 				else if (color.equals("magenta")){
 				r2d2.setPenColor(Color.MAGENTA);
 				}
+				else if (color.equals("pink")){
+					r2d2.setPenColor(Color.PINK);
+					
+				}
 				else{
 					r2d2.setRandomPenColor();
 				
