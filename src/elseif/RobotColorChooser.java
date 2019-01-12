@@ -25,7 +25,7 @@ public class RobotColorChooser {
 				}
 				else if (color.equals("pink")){
 					r2d2.setPenColor(Color.PINK);
-					
+					r2d2.sparkle();
 				}
 				else{
 					r2d2.setRandomPenColor();
@@ -45,7 +45,12 @@ public class RobotColorChooser {
 		
 		r2d2.move(70);
 			r2d2.move(120);
+			r2d2.setSpeed(25);
+			r2d2.turn(60);
+			r2d2.turn(-90);
+			r2d2.sparkle();
 			r2d2.move(70);
+			r2d2.
 			r2d2.move(120);
 			r2d2.move(70);
 			r2d2.move(120);

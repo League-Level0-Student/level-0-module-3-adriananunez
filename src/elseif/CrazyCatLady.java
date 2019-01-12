@@ -16,17 +16,15 @@ public class CrazyCatLady {
 		// 2. Convert their answer into an int
 			int cats=Integer.parseInt(input);
 		// 3. If they have more than 3 cats, tell them they're a crazy cat lady
-			if (cats>3) {JOptionPane.showInputDialog("If you have more than 3 cats you area crazy lady!!");
+			if (cats>3) {JOptionPane.showInputDialog("If you have more than 3 cats you are a crazy lady!!");
 			
 			}
 		// 4. If they have 3 or less, call the method below to show them a cat video
-			else if(cats<3) {playVideo("https://www.youtube.com/watch?v=YRNIndNHloU");JOptionPane.showInputDialog("If you have 3 or less ");
+			else if (cats==0) {playVideo("https://www.youtube.com/watch?v=W_juM14WHNQ");JOptionPane.showInputDialog("If you have no cats watch this video");
 			}
 			
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
-			else if (cats==0) {playVideo("https://www.youtube.com/watch?v=JuDTJ0iSk3U");JOptionPane.showInputDialog("If you have no cats watch this video");
-			
-
+			else if(cats<3) {playVideo("https://www.youtube.com/watch?v=YRNIndNHloU");JOptionPane.showInputDialog("If you have 3 or less ");
 			}}
 	static void playVideo(String videoURL) {
 		try {
