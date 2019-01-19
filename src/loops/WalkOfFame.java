@@ -14,9 +14,8 @@ public class WalkOfFame {
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
 		rob.setPenColor(Color.magenta);
-		rob.penDown(-90);
 		rob.setX(-90);
-			
+		rob.move(90);	
 	
 		
 		// 2. Make the robot draw a star shape. Hint: 144.

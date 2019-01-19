@@ -42,18 +42,44 @@ public class RobotColorChooser {
 	    //1. make the robot draw a shape (this will take more than one line of code)
 		r2d2.penDown();
 		
-		
-		r2d2.move(70);
-			r2d2.move(120);
-			r2d2.setSpeed(25);
+		for (int i = 0; i <4; i++) {
+			
+		}
+		r2d2.move(30);
+			r2d2.move(-90);
+			r2d2.setSpeed(50);
 			r2d2.turn(60);
 			r2d2.turn(-90);
 			r2d2.sparkle();
 			r2d2.move(70);
-			r2d2.
-			r2d2.move(120);
+			r2d2.move(-40);
+			r2d2.move(80);
+			r2d2.turn(90);
+			r2d2.sparkle();
 			r2d2.move(70);
-			r2d2.move(120);
+			r2d2.move(40);
+			r2d2.move(80);
+			r2d2.turn(-90);
+			r2d2.sparkle();
+			r2d2.move(70);
+			r2d2.move(-40);
+			r2d2.move(80);
+			r2d2.turn(90);
+			r2d2.sparkle();
+			r2d2.move(70);
+			r2d2.move(40);
+			r2d2.move(80);
+			r2d2.turn(-90);
+			r2d2.sparkle();
+			r2d2.move(70);
+			r2d2.move(-40);
+			r2d2.move(80);
+			r2d2.move(-300);
+			r2d2.turn(90);
+			r2d2.sparkle();
+			r2d2.move(70);
+			r2d2.move(40);
+			r2d2.move(80);
 
 
 			
